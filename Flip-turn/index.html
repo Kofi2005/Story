@@ -1,0 +1,134 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<script type="text/javascript" src="js/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+<link rel="stylesheet" href="main.css">
+<meta name="flipbook-viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="flipbook-viewport">
+	<div class="container">
+		<div class="flipbook">
+<!--CoverPage-->
+			<div style="background-image:url(images/cover.PNG)"></div>
+<!--Page 1 Picture-->
+			<div style="background-image:url(images/Captured.JPG)"></div>
+<!--Page 1 Text-->
+			 <div>
+                 <h1><span>Page</span>1</h1>
+                    <p>Long ago, in a land far away, there were two towns called Biafra and Alakra. Biafra was the land of Gold, 
+                        Silver and many beautiful Sapphires while Alakra was covered in thick bush and beautiful nature.
+                    </p>
+            </div>
+<!--Page 2 Picture-->
+			<div style="background-image:url(images/page%202.PNG)"></div>
+<!--Page 2 Text-->
+			<div><h1><span>Page</span>2</h1>
+                    <p>Although the two towns had lived side by side for hundreds of years, they hated each other immensely. This is 
+                        because the Alakrans were known to cause trouble and attack the Biafrans, stealing their gold and pillaging their villages. 
+                    </p>
+            </div>
+<!--Page 3 Picture-->            
+            <div style="background-image:url(images/page%203.PNG)"></div>
+<!--Page 3 Text-->            
+            <div><h1><span>Page</span>3</h1>
+                    <p>Because of this, the Biafrans were poor. All the Gold And Sapphires they worked so hard to mine day in and day out were stolen by the angry Alakrans who were spiteful of their lack of resources. 
+                    </p>
+            </div>
+<!--Page 4 Picture-->            
+            <div style="background-image:url(images/page%204.PNG)"></div>
+<!--Page 4 Text-->            
+            <div><h1><span>Page</span>4</h1>
+                    <p>The Alakrans always won their fights with the Biafrans as they had one man on their side. This man was Leeman the Cat.
+                    </p>
+            </div>
+<!--Page 5 Picture-->            
+            <div style="background-image:url(images/page%205.PNG)"></div>
+<!--Page 5 Text-->            
+            <div><h1><span>Page</span>5</h1>
+                    <p>Leeman was a retired army general who was born to an Alakran father and Biafran mother. He stood at seven feet tall and had muscles the size of trucks. When he moved, his veins spread all over his arms and chest like a vineyard and he destroyed any man or woman that stood in his path.
+                    </p>
+            </div>
+<!--Page 6 Picture-->            
+            <div style="background-image:url(images/Page%206.jpg)"></div>
+<!--Page 6 Text-->            
+            <div><h1><span>Page</span>6</h1>
+                    <p>One day, the leader of the Biafrans went to the King of the Alakra and begged for them to stop the violence and fighting. The King of Alakra laughed hysterically then made a proposition. “If you can bring forth a man or woman that can defeat the Great Leeman The Cat and His Soldiers, we will leave your people alone”. The leader of the Biafrans Agreed.
+                    </p>
+            </div>
+<!--Page 7 Picture-->            
+            <div style="background-image:url(images/ppage7.JPG)"></div>
+<!--Page 7 Text-->            
+            <div><h1><span>Page</span>7</h1>
+                    <p>Quickly, word spread all over Biafra of a need for a challenger to defeat Leeman and his Soldiers. Men of all shapes and sizes came forward. Each trying their luck at the Big Warrior and his men only to fail every time. 
+                        <br>Except One Man.....
+                    </p>
+            </div>
+<!--Page 8 Picture--> 
+            <div style="background-image:url(images/page%208.png)"></div>
+<!--Page 8 Text--> 
+            <div><h1><span>Page</span>8</h1>
+                    <p>This man was Jason The Defender. Jason was born to a poor family. His father was a shepherd and his morher was paralysed from an Alakran ambush. He decided to make it his misssion to defend Biafar from any Alakran soldiers forever.....
+                    </p>
+            </div> 
+<!--Page 9 Picture--> 
+            <div style="background-image:url(images/page9g.png)"></div>
+<!--Page 9 Text--> 
+            <div><h1><span>Page</span>9</h1>
+                    <p><br>Help Jason defeat the Alakran soldiers as they attack Biafra!<br><h1><span>PLAY NOW</span></h1><br>https://simmer.io/@Kofi2005/ipt
+                    </p>
+            </div> 
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+function loadApp() {
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Width
+
+			width:922,
+			
+			// Height
+
+			height:600,
+
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['js/turn.js'],
+	nope: ['js/turn.html4.min.js'],
+	both: ['css/basic.css'],
+	complete: loadApp
+});
+
+</script>
+
+</body>
+</html>
