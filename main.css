@@ -1,0 +1,26 @@
+body{
+    padding: 0px;
+    margin: 10px;
+    background-color: floralwhite;
+}
+.container{
+    position: absolute;
+    top: 0;left:0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    text-align: center; 
+}
+.container h1{
+    font-size: 40px;
+    color: #277804;
+    text-transform: uppercase;
+}
+.container h1 span{
+    font-size: 20px;
+    vertical-align: text-top;
+}
+.container p{
+    font-size: 25px;
+    color: #444;
+}
